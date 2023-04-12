@@ -1,7 +1,11 @@
 import './App.css'
 
 function App() {
-  return <p>SOBRE</p>
+  return (
+    <a href="#to-do" className="action">
+      Sobre
+    </a>
+  )
 }
 
 export default App
