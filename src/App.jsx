@@ -1,11 +1,8 @@
-import './App.css'
+import React from 'react';
+import Sobre from './objects/Sobre/index';
 
 function App() {
-  return (
-    <a href="#to-do" className="action">
-      Sobre
-    </a>
-  )
+  return <Sobre />;
 }
 
-export default App
+export default App;
