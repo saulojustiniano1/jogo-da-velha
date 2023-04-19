@@ -4,10 +4,10 @@ import Sobre from './objects/Sobre/index';
 
 function App() {
   return (
-    <div>
+    <>
       <Logo />
       <Sobre />
-    </div>
+    </>
   );
 }
 
