@@ -1,21 +1,42 @@
 import React from 'react';
 import Card from '../../objects/Card/index';
 import Player from '../../objects/Player/index';
+import './styles.css';
 
 const Hashtag = () => {
   return (
     <Card>
-      <Player player="o" />
-      <Player player="x" />
-      <Player player="x" />
+      <ul className="hashtag">
+        <li className="item">
+          <Player player="o" />
+        </li>
+        <li className="item">
+          <Player player="x" />
+        </li>
+        <li className="item">
+          <Player player="x" />
+        </li>
 
-      <Player player="x" />
-      <Player player="o" />
-      <Player player="o" />
+        <li className="item">
+          <Player player="x" />
+        </li>
+        <li className="item">
+          <Player player="o" />
+        </li>
+        <li className="item">
+          <Player player="o" />
+        </li>
 
-      <Player player="x" />
-      <Player player="o" />
-      <Player player="x" />
+        <li className="item">
+          <Player player="x" />
+        </li>
+        <li className="item">
+          <Player player="o" />
+        </li>
+        <li className="item">
+          <Player player="x" />
+        </li>
+      </ul>
     </Card>
   );
 };
