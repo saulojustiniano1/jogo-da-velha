@@ -20,7 +20,7 @@ const App = () => {
       />
 
       <About>
-        <AboutLink />
+        <AboutLink className="-light" />
       </About>
     </main>
   );
