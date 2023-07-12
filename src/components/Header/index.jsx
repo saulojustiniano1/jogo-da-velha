@@ -1,15 +1,16 @@
 import React from 'react';
+import './styles.css';
+
+import AboutLink from '../../objects/AboutLink/index';
 import Logo from '../../objects/Logo/index';
 import Menu from '../../objects/Menu/index';
-import Sobre from '../../objects/Sobre/index';
-import './styles.css';
 
 const Header = () => {
   return (
     <header className="header">
       <>
         <Logo />
-        <Sobre />
+        <AboutLink />
         <Menu />
       </>
     </header>
