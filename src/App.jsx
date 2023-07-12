@@ -4,6 +4,7 @@ import './App.css';
 import Hashtag from './components/Hashtag';
 import Header from './components/Header/index';
 import About from './objects/About';
+import AboutLink from './objects/AboutLink';
 import Checkbox from './objects/Checkbox';
 
 const App = () => {
@@ -18,7 +19,9 @@ const App = () => {
         content="Mostrar eventos"
       />
 
-      <About />
+      <About>
+        <AboutLink />
+      </About>
     </main>
   );
 };
